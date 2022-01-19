@@ -1,5 +1,5 @@
 {
-  "name": "@candledex/sdk",
+  "name": "@candlelabs/sdk",
   "license": "MIT",
   "version": "5.0.0-canary.117",
   "description": "🛠 An SDK for building applications on top of CandleDEX.",
