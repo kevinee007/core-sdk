@@ -1,14 +1,17 @@
 {
-  "name": "@candlelabs/sdk",
+  "name": "@candlelabs/core-sdk",
   "license": "MIT",
-  "version": "5.0.0-canary.117",
+  "version": "6.0.0",
   "description": "🛠 An SDK for building applications on top of CandleDEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/candleplatforms/core-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candleplatforms/core-sdk.git"
+  },
   "keywords": [
     "candle",
     "ethereum",
@@ -66,5 +69,13 @@
   },
   "engines": {
     "node": ">=14"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/candleplatforms/core-sdk/issues"
+  },
+  "homepage": "https://github.com/candleplatforms/core-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }

@@ -5,7 +5,7 @@ import { BigNumber } from '@ethersproject/bignumber'
 describe('Limit Order', () => {
   it('should create Limit Order', async () => {
     let tokenA = new Token(ChainId.MATIC, '0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9', 18, 'DAI')
-    let tokenB = new Token(ChainId.MATIC, '0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9', 18, 'SUSHI')
+    let tokenB = new Token(ChainId.MATIC, '0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9', 18, 'CANDLE')
 
     const amountIn = CurrencyAmount.fromRawAmount(tokenA, '9000000000000000000')
     const amountOut = CurrencyAmount.fromRawAmount(tokenB, '8000000000000000000')
