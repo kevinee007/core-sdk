@@ -1,7 +1,7 @@
 {
-  "name": "@candlelabs/core-sdk",
+  "name": "@candlelabs/sdk",
   "license": "MIT",
-  "version": "6.0.0",
+  "version": "6.2.0",
   "description": "🛠 An SDK for building applications on top of CandleDEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/candleplatforms/core-sdk.git"
+    "url": ""
   },
   "keywords": [
     "candle",
